@@ -1,0 +1,107 @@
+.fifty{
+    margin: 50px;
+}
+
+.gridOne{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.gridTwo{
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.gridTwo > .red{
+    background-color: red;
+}
+
+.gridTwo > .blue{
+    background-color: blue;
+}
+
+.gridTwo > .yellow{
+    background-color: yellow;
+}
+
+.gridThree{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    width: 520px;
+}
+
+.gridThree > .title{
+    background-color: SteelBlue;
+    color: whitesmoke;
+    font-weight: 600;
+    padding: 20px 10px;
+}
+
+.gridThree > .image{
+    background-color: SkyBlue;
+}
+
+.gridThree > .image img{
+    width: 500px;
+    height: 225px;
+    object-fit: cover;
+    padding: 20px 10px;
+}
+
+.gridFour{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: darkgreen;
+    color:whitesmoke;
+    font-size: 20px;
+}
+
+.gridFour > .rain {
+    padding: 0px 30px;
+}
+
+#sunny{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px 30px;
+}
+
+.gridFive{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    width: 500px;
+    background-color: darkgreen;
+    color:whitesmoke;
+    font-size: 20px;
+}
+
+#rain{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding: 10px;
+}
+
+#rain img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.gridSix{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    width: 500px;
+    background-color: lightgray;
+    font-family: 'Font Awesome\ 5 Free', "Montserrat Underline", sans-serif;
+    font-size: 30px;
+    font-style: italic;
+}
+
+.fas{
+    font-size: 50px;
+    color: whitesmoke;
+}
+
