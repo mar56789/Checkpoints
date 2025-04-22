@@ -1,8 +1,9 @@
 # Exercise 1: Create a list, tuple, float, integer, decimal, and dictionary.
 
-print("Exercise 1")
-
+import math
 from decimal import Decimal
+
+print("Exercise 1")
 
 number= 3 + 1/7
 integer= int(number)
@@ -40,12 +41,12 @@ print("diccionario {} => ",dictionary_2)
 # Exercise 2: Round your float up.
 
 print("Exercise 2")
-print("Redondear float=>  ", round(float))
+print("Redondear float hacia arriba=>  ", math.ceil(float))
 
 # Exercise 3: Get the square root of your float.
 
 print("Exercise 3")
-square = float ** 2
+square = math.sqrt(float)
 print('Exponents - square root =>  ', square)
 
 # Exercise 4: Select the first element from your dictionary.
